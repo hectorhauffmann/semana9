@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>semana 9</title>
+<link rel="stylesheet" href="estilo.css"
+<script src="validar.js"></script>
+</head>
+<body>
+<hl>semana 9</hl>
+<form action="registrar.php"method="post"class="form-register" onsubmit="return validar();">
+<h2 class="form titulo">Inquilinos</h2>
+<div class="contenedor-inputs">
+<input type="text"id="nombre"name="nombre"placeholder="Nombre"class="input-48"required>
+<input type="text"id="apellido"name="apellido"placeholder="Apellido"class="input-48"required>
+<input type="email" id="email"name="email"placeholder="email"class="input-108"required>
+<input type="text"id="telefono"name="telefono"placeholder="telefono"class="input-108"required>
+<input type="text"id="edificio_id"name="edificio_id"placeholder="edificio_id"class="input-108"required>
+<input type="date"id="fecha_creacion"name="fecha_creacion"placeholder="fecha_creacion"class="input-108"required>
+<input type="submit"value="Registrar"class="btn-enviar">
+</div>
+</form>
+</body>
+</html>
